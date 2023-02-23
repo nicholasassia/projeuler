@@ -10,4 +10,5 @@ def fib():
         a, b = b, a+b
     print(f'sum of even vals: {evenfib}')
         
-fib()
+if __name__ == '__main__':
+    fib()
